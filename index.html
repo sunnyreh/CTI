@@ -380,6 +380,17 @@ h3{font-size:25px;line-height:1.12}
 @media(max-width:1000px){.image-story{margin:48px 24px}.opportunity-grid{grid-template-columns:repeat(2,1fr)}.opp-card[open]{grid-column:1/-1}.wheel-node{width:160px}.play-list{grid-template-columns:1fr 1fr}}
 @media(max-width:760px){.publication-strip{grid-template-columns:1fr}.image-story{height:520px;margin:38px 18px;border-radius:22px}.image-story::after{background:linear-gradient(180deg,rgba(18,13,10,.05) 25%,rgba(18,13,10,.88) 88%)}.image-story-overlay{left:24px;right:24px;bottom:28px}.image-story-overlay h3{font-size:25px}.flywheel-canvas{aspect-ratio:auto;display:grid;gap:10px;margin-top:25px}.flywheel-ring,.flywheel-core{display:none}.wheel-node{position:relative!important;inset:auto!important;width:auto;min-height:auto;transform:none!important}.opportunity-grid{grid-template-columns:1fr}.opp-card[open]{grid-column:auto}.opp-card summary{min-height:auto}.play-list{grid-template-columns:1fr}.votc-heading h3{font-size:26px}.opp-revenue{grid-template-columns:36px 1fr}.dollar-meter{grid-column:2;justify-self:start}}
 
+/* Integrated outputs and activation section */
+#outputs-legacy,#outputs-condensed,#value-legacy,#credibility{display:none!important}.accent{color:var(--orange)}
+.embedded-section{background:linear-gradient(180deg,#fff8f2 0%,#fff 78%)}.embedded-module{margin-top:28px;border:1px solid var(--line);border-radius:22px;background:#fff;box-shadow:var(--shadow);overflow:hidden}.embedded-module>summary{cursor:pointer;list-style:none;padding:17px 22px;font-size:12px;font-weight:800;color:var(--orange);border-bottom:1px solid var(--line)}.embedded-module>summary::-webkit-details-marker{display:none}.embedded-module>summary:after{content:'−';float:right;font-size:18px;line-height:12px}.embedded-module:not([open])>summary:after{content:'+'}.embedded-frame{display:block;width:100%;height:7600px;border:0;background:#fbfaf8}
+@media(max-width:760px){.embedded-frame{height:9000px}.embedded-module>summary{padding:15px 17px}}
+.integrated-section{background:linear-gradient(180deg,#fff8f2 0%,#fff 78%)}
+.integrated-tabs{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-top:30px}
+.integrated-tab{appearance:none;border:0;border-right:1px solid var(--line);background:none;text-align:left;padding:19px 18px 18px;min-height:92px;position:relative;color:var(--muted);font-weight:800}.integrated-tab:last-child{border-right:0}.integrated-tab small{display:block;color:var(--orange);font-size:10px;letter-spacing:.12em;margin-bottom:9px}.integrated-tab strong{display:block;font-size:13px;line-height:1.2}.integrated-tab[aria-selected="true"]{background:#fff;color:var(--ink)}.integrated-tab[aria-selected="true"]:after{content:'';position:absolute;left:0;right:0;bottom:-2px;height:4px;background:var(--orange)}
+.integrated-panel{display:grid;grid-template-columns:1fr 1fr;gap:28px;background:#fff;border-bottom:1px solid var(--line);padding:34px 30px 31px}.integrated-panel[hidden]{display:none}.integrated-panel h3{font-family:Georgia,serif;font-size:30px;line-height:1.08;letter-spacing:-.04em;margin:8px 0 11px}.integrated-panel p{font-size:13px;color:var(--muted);line-height:1.55;margin:0}.panel-kicker{color:var(--orange);font-size:10px;font-weight:800;letter-spacing:.13em;text-transform:uppercase}.panel-list{display:grid;gap:11px;margin:20px 0 0;padding:0;list-style:none}.panel-list li{font-size:12px;color:#413a36;padding-left:18px;position:relative}.panel-list li:before{content:'✓';position:absolute;left:0;color:var(--orange);font-weight:900}.new-output-art{min-height:270px;border-radius:18px;background:linear-gradient(135deg,#231d1a,#4a2113);padding:22px;display:grid;grid-template-columns:1fr .72fr;gap:16px;box-shadow:var(--shadow)}.mock-report{background:#fffaf7;border-radius:7px;padding:17px;transform:rotate(-2deg);color:#241f1d}.mock-report .mock-bar{height:5px;background:var(--orange);width:68px;margin-bottom:25px}.mock-report h4{font:normal 31px/1 Georgia,serif;letter-spacing:-.05em;margin:0}.mock-report p{font-size:10px;color:#72665f;margin-top:14px}.mock-chart{align-self:center;background:#fff3eb;border-radius:8px;padding:16px}.mock-chart strong{display:block;color:#6e5a50;font-size:11px;margin-bottom:15px}.mock-chart i{display:block;height:12px;background:linear-gradient(90deg,#ffb08b,#fa5108);margin:11px 0;border-radius:2px}.mock-chart i:nth-child(2){width:82%}.mock-chart i:nth-child(3){width:59%}.mock-chart i:nth-child(4){width:73%}.activation-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:26px}.activation-card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px}.activation-card b{display:block;color:var(--orange);font-size:10px;letter-spacing:.12em;text-transform:uppercase}.activation-card h4{font-size:16px;margin:9px 0 7px}.activation-card p{font-size:12px}.pathway-mini{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-top:30px}.pathway-mini div{border-top:3px solid #e6c8bb;padding-top:12px;font-size:11px;color:#625852}.pathway-mini div:first-child{border-top-color:var(--orange)}.pathway-mini b{display:block;color:var(--orange);font-size:17px;margin-bottom:4px}
+@media(max-width:760px){.integrated-tabs{grid-template-columns:repeat(2,1fr)}.integrated-tab:nth-child(2){border-right:0}.integrated-panel{grid-template-columns:1fr;padding:25px 18px}.new-output-art{min-height:230px}.activation-grid{grid-template-columns:1fr}.pathway-mini{grid-template-columns:1fr 1fr}}
+/* Let the embedded document determine its own height, including delayed interactive reveals */
+.embedded-frame{height:1px}
 </style>
 <style>
 /* v4 global, multi-sector and territory participation enhancements */
@@ -431,9 +442,7 @@ h3{font-size:25px;line-height:1.12}
 <nav class="nav" id="nav">
 <a href="#why">Why now</a>
 <a href="#benchmark">What HTI is</a>
-<a href="#outputs">Outputs</a>
-<a href="#value">Territory value</a>
-<a href="#credibility">Credibility</a>
+<a href="#outputs">Outputs &amp; activation</a>
 <a href="#participate">Participate</a>
 </nav>
 <button aria-expanded="false" aria-label="Open navigation" class="menu" id="menuBtn">☰</button>
@@ -549,7 +558,7 @@ h3{font-size:25px;line-height:1.12}
 </div>
 <div class="status-banner reveal">
 <div class="status-mark">✓</div>
-<div><span>Global momentum</span><strong>10+ territories committed · Officially endorsed by the PwC Global Health Industries Council</strong></div>
+<div><span>Global momentum</span><strong>11+ territories committed · Officially endorsed by the PwC Global Health Industries Council</strong></div>
 </div>
 <div class="market-map" aria-label="Current territory outreach map">
 <div class="map-stage">
@@ -814,7 +823,7 @@ h3{font-size:25px;line-height:1.12}
 <div class="image-story-overlay"><span>Trust is shaped in the moments that matter</span><h3>Across information, access, data use and service, everyday interactions determine how consumers experience health organisations.</h3></div>
 </section>
 <div class="divider"></div>
-<section class="section" id="outputs">
+<section class="section" id="outputs-legacy">
 <div class="eyebrow reveal"><span class="n">03</span> From insight to market story</div>
 <h2 class="reveal">Designed to be understood quickly and used immediately</h2>
 <p class="lead reveal">HTI turns a rigorous benchmark into an annual PwC thought leadership narrative: sector trust scores, the dimensions behind them, the consumer perspectives that matter and the actions leaders can take.</p>
@@ -847,7 +856,38 @@ h3{font-size:25px;line-height:1.12}
 </div>
 </section>
 <div class="divider"></div>
-<section class="section" id="value">
+<section class="section embedded-section" id="outputs">
+<div class="eyebrow reveal"><span class="n">03</span> Outputs and activation</div>
+<h2 class="reveal">From findings to <span class="accent">client action</span></h2>
+<p class="lead reveal">Explore the complete interactive outputs-and-activation experience, including market comparisons, sector and dimension drill-downs, deliverables, client examples and the activation pathway.</p>
+<details class="embedded-module" open><summary>Open the full outputs and activation experience</summary><iframe class="embedded-frame" title="HTI outputs and activation interactive tool" src="outputs-activation.html"></iframe></details>
+</section>
+<section class="section integrated-section" id="outputs-condensed">
+<div class="integrated-tabs" role="tablist" aria-label="Outputs and activation content">
+<button class="integrated-tab" type="button" role="tab" aria-selected="true" data-output-tab="deliverables"><small>01</small><strong>What territories receive</strong></button>
+<button class="integrated-tab" type="button" role="tab" aria-selected="false" data-output-tab="examples"><small>02</small><strong>Illustrative client examples</strong></button>
+<button class="integrated-tab" type="button" role="tab" aria-selected="false" data-output-tab="pathway"><small>03</small><strong>Activation pathway</strong></button>
+<button class="integrated-tab" type="button" role="tab" aria-selected="false" data-output-tab="value"><small>04</small><strong>Territory value</strong></button>
+</div>
+<div class="integrated-panel" id="output-panel-deliverables" role="tabpanel">
+<div><span class="panel-kicker">Illustrative deliverables</span><h3>Make the story easy to see and use</h3><p>Territories will receive a clear benchmark narrative and supporting materials that can move from publication to executive discussion.</p><ul class="panel-list"><li>Global flagship report and sector narratives</li><li>Survey results and detailed market cuts</li><li>Executive-ready materials and discussion prompts</li><li>Local activation guidance for priority accounts</li></ul></div>
+<div class="new-output-art" aria-label="Illustrative report and scorecard mockup"><div class="mock-report"><div class="mock-bar"></div><h4>Health<br/><span class="accent">Trust</span><br/>Index</h4><p>Sector perceptions, trust dimensions and practical implications.</p></div><div class="mock-chart"><strong>Illustrative scorecard</strong><i></i><i></i><i></i><p>Trust signals by dimension</p></div></div>
+</div>
+<div class="integrated-panel" id="output-panel-examples" role="tabpanel" hidden>
+<div><span class="panel-kicker">Illustrative client examples</span><h3>Start with a sector-level finding</h3><p>Use a perceived gap as an entry point for a focused conversation. The index identifies where to investigate; it does not diagnose an individual company.</p></div>
+<div class="activation-grid"><div class="activation-card"><b>Discuss</b><h4>Pharma / quality</h4><p>Risk information may be the weak point in an otherwise credible scientific story.</p></div><div class="activation-card"><b>Investigate</b><h4>Provider / safety</h4><p>Explore how incident communication and appropriate AI use shape confidence.</p></div><div class="activation-card"><b>Potential work</b><h4>Digital health / data</h4><p>Translate data confidence into a trust-by-design or responsible AI discussion.</p></div></div>
+</div>
+<div class="integrated-panel" id="output-panel-pathway" role="tabpanel" hidden>
+<div><span class="panel-kicker">Illustrative activation pathway</span><h3>From finding to potential engagement</h3><p>A practical sequence for territory and account teams to adapt to their clients.</p></div>
+<div class="pathway-mini"><div><b>01</b>Identify a relevant finding</div><div><b>02</b>Bring the right leaders together</div><div><b>03</b>Connect to an account priority</div><div><b>04</b>Investigate a specific issue</div><div><b>05</b>Prioritise and deliver improvements</div></div>
+</div>
+<div class="integrated-panel" id="output-panel-value" role="tabpanel" hidden>
+<div><span class="panel-kicker">Why territories participate</span><h3>Global scale with practical local value</h3><p>Participating territories can anchor client conversations in evidence, shape local relevance and build a repeatable route from publication to action.</p></div>
+<div class="activation-grid"><div class="activation-card"><b>Local relevance</b><p>Market-level findings for sector and priority-account conversations.</p></div><div class="activation-card"><b>Reusable engagement</b><p>A report narrative and executive readout structure teams can adapt.</p></div><div class="activation-card"><b>Commercial entry points</b><p>Structured openings for diagnostics and follow-on work where warranted.</p></div></div>
+</div>
+</section>
+<div class="divider"></div>
+<section class="section" id="value-legacy">
 <div class="eyebrow reveal"><span class="n">04</span> Why territories should participate</div>
 <h2 class="reveal">A global, annual initiative with practical local value</h2>
 <p class="lead reveal">Territories can opt in to add their market to the global benchmark, access relevant local insight and create a clear route into client engagement and downstream opportunities.</p>
@@ -981,7 +1021,7 @@ h3{font-size:25px;line-height:1.12}
 </section>
 <section class="ask-shell" id="participate">
 <div class="section">
-<div class="eyebrow reveal"><span class="n">06</span> Participation opportunity</div>
+<div class="eyebrow reveal"><span class="n">05</span> Participation opportunity</div>
 <h2 class="reveal">Join the inaugural edition</h2>
 <p class="lead reveal">Territories are invited to opt in to include their market in the benchmark and access the corresponding local insight and activation opportunities.</p>
 <div class="ask-grid">
@@ -1056,6 +1096,8 @@ const dimData={
 const dimTitle=document.getElementById('dimTitle'),dimText=document.getElementById('dimText'),dimTags=document.getElementById('dimTags');
 document.querySelectorAll('.dim-btn').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.dim-btn').forEach(b=>b.classList.remove('active'));btn.classList.add('active');const d=dimData[btn.dataset.dim];dimTitle.textContent=d.title;dimText.textContent=d.text;dimTags.innerHTML=d.tags.map(t=>'<span>'+t+'</span>').join('')}));
 
+document.querySelectorAll('[data-output-tab]').forEach(tab=>tab.addEventListener('click',()=>{const key=tab.dataset.outputTab;document.querySelectorAll('[data-output-tab]').forEach(t=>t.setAttribute('aria-selected',String(t===tab)));document.querySelectorAll('.integrated-panel').forEach(panel=>panel.hidden=panel.id!=='output-panel-'+key)}));
+const embeddedFrame=document.querySelector('.embedded-frame');if(embeddedFrame){window.addEventListener('message',event=>{if(event.source!==embeddedFrame.contentWindow||event.data?.type!=='hti-embedded-height')return;const height=Number(event.data.height);if(Number.isFinite(height)&&height>0)embeddedFrame.style.height=Math.ceil(height)+'px'});embeddedFrame.addEventListener('load',()=>embeddedFrame.contentWindow.postMessage({type:'hti-request-height'},'*'));}
 const slides=[...document.querySelectorAll('.carousel-stage img')],dots=[...document.querySelectorAll('.dot')];let slideIndex=0;
 function showSlide(i){slideIndex=(i+slides.length)%slides.length;slides.forEach((s,n)=>s.classList.toggle('active',n===slideIndex));dots.forEach((d,n)=>d.classList.toggle('active',n===slideIndex))}
 document.getElementById('prevSlide').addEventListener('click',()=>showSlide(slideIndex-1));document.getElementById('nextSlide').addEventListener('click',()=>showSlide(slideIndex+1));dots.forEach(d=>d.addEventListener('click',()=>showSlide(+d.dataset.slide)));
